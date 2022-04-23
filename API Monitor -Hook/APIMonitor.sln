@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APIMonitor", "APIMonitor.vcxproj", "{80B45A1A-1BDB-4F0B-9433-CABD2A74DBFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B45A1A-1BDB-4F0B-9433-CABD2A74DBFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{80B45A1A-1BDB-4F0B-9433-CABD2A74DBFE}.Debug|x86.Build.0 = Debug|Win32
+		{80B45A1A-1BDB-4F0B-9433-CABD2A74DBFE}.Release|x86.ActiveCfg = Release|Win32
+		{80B45A1A-1BDB-4F0B-9433-CABD2A74DBFE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C28D027-C5F5-4E3E-9ED0-957F61EFCFE4}
+	EndGlobalSection
+EndGlobal

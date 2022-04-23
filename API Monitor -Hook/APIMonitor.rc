@@ -1,0 +1,122 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    DIALOGMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DIALOGMAIN DIALOGEX 0, 0, 335, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "APIMonitor1.3"
+FONT 10, "宋体", 400, 0, 0x86
+BEGIN
+    LISTBOX         IDC_LIST_APIArray,7,40,76,131,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "请输入API名称:",IDC_STATIC,93,177,44,8
+    EDITTEXT        IDC_EDIT_APIName,139,175,76,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加API",IDC_BUTTON_AddAPI,218,175,36,11
+    PUSHBUTTON      "删除API",IDC_BUTTON_DelAPI,7,175,32,11
+    COMBOBOX        IDC_COMBO_Mudles,7,14,76,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "API调用信息",IDC_STATIC,155,15,43,8
+    PUSHBUTTON      "开始",IDC_BUTTON_HookDllAPI,93,14,39,11
+    LTEXT           "",IDC_STATIC,280,185,8,8
+    PUSHBUTTON      "删除全部Hook",IDC_BUTTON_UnHookAllAPI,43,175,48,11
+    PUSHBUTTON      "清屏",IDC_BUTTON_ClearShowList,223,13,37,11
+    LTEXT           "",IDC_STATIC,280,170,8,8
+    PUSHBUTTON      "模块信息",IDC_BUTTON_GetModuleMsg,259,175,31,11
+    CONTROL         "List1",IDC_LISTV_Show,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,93,29,235,143
+    PUSHBUTTON      "参数信息",IDC_BUTTON_GetParam,297,175,31,11
+    CONTROL         "监控系统调用",IDC_CHECK_IsShowSystem,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,274,13,54,10
+    LTEXT           "选择DLL:",IDC_STATIC,7,5,45,8
+    LTEXT           "API列表：",IDC_STATIC,7,30,41,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+DIALOGMAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
